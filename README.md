@@ -19,28 +19,19 @@
 
 <div align="center">
 
-### 🔷 Quadra
+<a href="https://github.com/amirsohail100/Quadra">
+  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
+</a>
 
-**Credit Ledger — Loan Risk Assessment**
+### Quadra
 
-*An underwriting desk for consumer loan applications.*
+*A loan risk assessment platform with explainable predictions.*
 
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Explainability](https://img.shields.io/badge/Explainability-SHAP-E8743B?style=flat-square)
+[**View Project →**](https://github.com/amirsohail100/Quadra)
 
 </div>
 
-Quadra's Credit Ledger takes an applicant's profile, loan request and credit bureau details, and returns the **probability that the applicant will default**, along with a clear **high / low risk verdict**.
-
-The backend (API) and the frontend (UI) are served from the **same server**, so a single command is enough to run the whole app locally.
-
-- 🧠 **Explainable predictions**: SHAP-based reasoning behind every risk verdict
-- ⚡ **FastAPI backend**: fast, typed and production-friendly
-- 🖥️ **Single-server deployment**: API and UI served together
-- 🏠 **Currently hosted**: live and running for the past few months
-
-👉 **[View the Quadra repository](https://github.com/amirsohail100/Quadra)**
+I've been hosting Quadra for the past few months. It estimates an applicant's default risk and explains the reasoning behind each verdict, built with a FastAPI backend and a UI served from the same server.
 
 ---
 
