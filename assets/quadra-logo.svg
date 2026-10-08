@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Lighting & Glow Filters -->
+    <filter id="glowHex" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Gradients for 3D Lighting -->
+    <linearGradient id="topFacet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    
+    <linearGradient id="rightFacet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#0072FF"/>
+    </linearGradient>
+
+    <linearGradient id="leftFacet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+
+    <linearGradient id="bottomFacet" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0,0)">
+    <!-- Glow Layer behind -->
+    <g opacity="0.3" filter="url(#glowHex)">
+      <polygon points="256,40 440,146 440,358 256,464 72,358 72,146" fill="#00F2FE"/>
+    </g>
+
+    <!-- Segment 1: Top Right Faceted Arm -->
+    <path d="M 256 60 L 420 154 L 340 200 L 256 150 Z" fill="url(#topFacet)"/>
+    <path d="M 420 154 L 420 346 L 340 300 L 340 200 Z" fill="url(#rightFacet)"/>
+    <path d="M 420 154 L 340 200 L 256 150 Z" fill="url(#innerGlow)"/>
+
+    <!-- Segment 2: Bottom Right Faceted Arm -->
+    <path d="M 420 346 L 256 440 L 256 348 L 340 300 Z" fill="url(#bottomFacet)"/>
+    <path d="M 420 346 L 340 300 L 256 348 Z" fill="url(#innerGlow)" opacity="0.4"/>
+
+    <!-- Segment 3: Bottom Left Faceted Arm -->
+    <path d="M 256 440 L 92 346 L 172 300 L 256 348 Z" fill="url(#leftFacet)"/>
+    <path d="M 92 346 L 92 154 L 172 200 L 172 300 Z" fill="url(#bottomFacet)" opacity="0.9"/>
+
+    <!-- Segment 4: Top Left Faceted Arm -->
+    <path d="M 92 154 L 256 60 L 256 150 L 172 200 Z" fill="url(#topFacet)"/>
+    <path d="M 92 154 L 172 200 L 256 150 Z" fill="url(#innerGlow)" opacity="0.7"/>
+
+    <!-- Center Core Cutout Accent -->
+    <polygon points="256,150 340,200 340,300 256,348 172,300 172,200" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="3"/>
+  </g>
+</svg>
