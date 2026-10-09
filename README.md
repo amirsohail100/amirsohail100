@@ -20,7 +20,7 @@
 <div align="center">
 
 <a href="https://github.com/amirsohail100/Quadra">
-  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
+  <img src="quadra-logo.svg" alt="Quadra logo" width="180" />
 </a>
 
 ### Quadra
@@ -127,7 +127,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 <div align="center">
 
-<img alt="Contribution Graph" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=amirsohail100&custom_title=Amir%20Sohail%27s%20Contribution%20Graph&bg_color=0d1117&color=22d3ee&line=22d3ee&point=ffffff&area=true&area_color=22d3ee&title_color=c9d1d9&hide_border=true&radius=8" />
+<img alt="Contribution Graph" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/contribution-graph.svg" />
 
 </div>
 
