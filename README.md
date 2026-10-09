@@ -20,7 +20,7 @@
 <div align="center">
 
 <a href="https://github.com/amirsohail100/Quadra">
-  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
+  <img src="quadra-logo.svg" alt="Quadra logo" width="180" />
 </a>
 
 ### Quadra
@@ -153,7 +153,7 @@ I'm open to collaborating on open-source GenAI, LangChain / LangGraph and MLOps 
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=amirsohail100&icon=0&color=0&style=flat-square)](https://visitcount.itsvg.in)
+[![Profile Views](https://komarev.com/ghpvc/?username=amirsohail100&icon=github&color=blue&style=flat-square)](https://visitcount.itsvg.in)
 
 </div>
 
