@@ -20,7 +20,7 @@
 <div align="center">
 
 <a href="https://github.com/amirsohail100/Quadra">
-  <img src="quadra-logo.svg" alt="Quadra logo" width="180" />
+  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
 </a>
 
 ### Quadra
