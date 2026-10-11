@@ -33,6 +33,9 @@ jobs:
           GH_USER: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate animated skills grid
+        run: python3 .github/scripts/generate_skills.py
+
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
