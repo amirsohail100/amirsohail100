@@ -20,7 +20,7 @@
 <div align="center">
 
 <a href="https://github.com/amirsohail100/Quadra">
-  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
+  <img src="quadra-logo.svg" alt="Quadra logo" width="180" />
 </a>
 
 ### Quadra
@@ -61,7 +61,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 <div align="center">
 
-<img alt="Skills" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/skills.svg" />
+<img alt="Skills" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/skills.svg?v=2" />
 
 </div>
 
@@ -178,7 +178,7 @@ I'm open to collaborating on open-source GenAI, LangChain / LangGraph and MLOps 
 
 <div align="center">
 
-[![Profile Views](https://hits.sh/github.com/amirsohail100.svg?style=flat-square&label=Profile%20views&color=0d9488)](https://hits.sh/github.com/amirsohail100/)
+![Profile Views](https://hits.sh/github.com/amirsohail100.svg?style=flat-square&label=Profile%20views&color=0d9488)
 
 </div>
 
