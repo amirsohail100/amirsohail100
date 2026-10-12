@@ -9,7 +9,7 @@
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=flat-square&logo=Reddit&logoColor=white)](https://reddit.com/user/amirsohail102)
 [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=flat-square&logo=Twitch&logoColor=white)](https://twitch.tv/amirsohail1010)
 [![X](https://img.shields.io/badge/X-black.svg?style=flat-square&logo=X&logoColor=white)](https://x.com/amirsohail2b)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:amirsoahil10@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:amirsohail10@gmail.com)
 
 </div>
 
@@ -20,14 +20,14 @@
 <div align="center">
 
 <a href="https://github.com/amirsohail100/Quadra">
-  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
+  <img src="quadra-logo.svg" alt="Quadra logo" width="180" />
 </a>
 
 ### Quadra
 
 *A loan risk assessment platform with explainable predictions.*
 
-[**View Project →**](https://quadra-studio.onrender.com)
+[**View Project →**](https://github.com/amirsohail100/Quadra)
 
 </div>
 
@@ -174,9 +174,48 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 ## 🤝 Let's Connect
 
-I'm open to collaborating on open-source GenAI, LangChain / LangGraph and MLOps projects. If you're working on something interesting, reach out via [email](mailto:amirsoahil10@gmail.com) or [X](https://x.com/amirsohail2b).
-
 <div align="center">
+
+<img alt="Let's build something together" width="800" src="connect-banner.svg" />
+
+<br/><br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🤝 Open to collaborate on**
+- Open-source Generative AI
+- LangChain / LangGraph agentic projects
+- MLOps pipelines and deployment
+
+</td>
+<td width="50%" valign="top">
+
+**🙋 Where I'd love input**
+- Cloud deployment (AWS, Kubernetes)
+- CI/CD pipelines
+- Fine-tuning LLMs and vector DB architectures
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<a href="mailto:amirsohail10@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://linkedin.com/in/amir-sohail-ai"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://x.com/amirsohail2b"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+<br/>
+<a href="https://discord.gg/fgDx4yb6E"><img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+<a href="https://instagram.com/_amir_sohail100_"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+<a href="https://quadra-studio.onrender.com"><img alt="Quadra Live" src="https://img.shields.io/badge/Quadra_Live-46E3B7?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+
+<br/><br/>
+
+<sub>Always happy to talk about projects, ideas and open-source contributions.</sub>
+
+<br/><br/>
 
 ![Profile Views](https://hits.sh/github.com/amirsohail100.svg?style=flat-square&label=Profile%20views&color=0d9488)
 
