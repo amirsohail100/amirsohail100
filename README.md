@@ -27,7 +27,7 @@
 
 *A loan risk assessment platform with explainable predictions.*
 
-[**View Project →**](https://github.com/amirsohail100/Quadra)
+[**View Project →**](https://quadra-studio.onrender.com)
 
 </div>
 
