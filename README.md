@@ -19,15 +19,15 @@
 
 <div align="center">
 
-<a href="https://quadra-studio.onrender.com">
-  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
+<a href="https://github.com/amirsohail100/Quadra">
+  <img src="quadra-logo.svg" alt="Quadra logo" width="180" />
 </a>
 
 ### Quadra
 
 *A loan risk assessment platform with explainable predictions.*
 
-[**View Project →**](https://quadra-studio.onrender.com)
+[**View Project →**](https://github.com/amirsohail100/Quadra)
 
 </div>
 
@@ -143,6 +143,14 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 <img height="180" alt="Top Languages" src="https://github-readme-stats.shion.dev/api/top-langs/?username=amirsohail100&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 
 <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=amirsohail100&theme=dark&hide_border=false" />
+
+<br/><br/>
+
+<img alt="Currently Exploring" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/now.svg?v=1" />
+
+<br/><br/>
+
+<img alt="Coding Rhythm" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/rhythm.svg?v=1" />
 
 </div>
 
