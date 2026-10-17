@@ -19,15 +19,15 @@
 
 <div align="center">
 
-<a href="https://github.com/amirsohail100/Quadra">
-  <img src="quadra-logo.svg" alt="Quadra logo" width="180" />
+<a href="https://quadra-studio.onrender.com">
+  <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
 </a>
 
 ### Quadra
 
 *A loan risk assessment platform with explainable predictions.*
 
-[**View Project →**](https://github.com/amirsohail100/Quadra)
+[**View Project →**](https://quadra-studio.onrender.com)
 
 </div>
 
