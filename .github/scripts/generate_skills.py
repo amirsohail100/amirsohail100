@@ -22,12 +22,17 @@ SKILLS = [
     ("scikitlearn", "scikit-learn", "F7931E", "sk"), ("numpy", "NumPy", "4DABCF", "Np"), ("pandas", "Pandas", "8F7BE8", "Pd"),
     ("plotly", "Plotly", "7A8CC2", "Pl"),
     ("mlflow", "MLflow", "0194E2", "ML"), ("shap", "SHAP", "FF0051", "SHAP"), ("huggingface", "Hugging Face", "FFD21E", "HF"),
-    ("langchain", "LangChain", "1C9C8C", "LC"), ("langgraph", "LangGraph", "1C9C8C", "LG"), ("powerbi", "Power BI", "F2C811", "BI"),
+    ("langchain", "LangChain", "1C9C8C", "LC"), ("langgraph", "LangGraph", "1C9C8C", "LG"),
+    ("mistralai", "Mistral AI", "FA520F", "MI"), ("groq", "Groq", "F55036", "Gq"), ("pydantic", "Pydantic", "E92063", "Pyd"),
+    ("jupyter", "Jupyter", "F37626", "Jp"), ("xgboost", "XGBoost", "FF9F1C", "XGB"), ("powerbi", "Power BI", "F2C811", "BI"),
+    ("microsoftexcel", "Excel", "217346", "XL"),
     ("docker", "Docker", "2496ED", "Dk"), ("kubernetes", "Kubernetes", "326CE5", "K8s"), ("amazonaws", "AWS", "FF9900", "AWS"),
     ("googlecloud", "Google Cloud", "4285F4", "GCP"),
     ("githubactions", "GitHub Actions", "2088FF", "GA"), ("gitlab", "GitLab", "FC6D26", "GL"), ("cicd", "CI/CD", "58A6FF", "CI/CD"),
     ("git", "Git", "F05032", "Git"), ("github", "GitHub", "C9D1D9", "GH"), ("gitee", "Gitee", "C71D23", "Ge"),
     ("mysql", "MySQL", "4479A1", "SQL"), ("mongodb", "MongoDB", "47A248", "Mg"),
+    ("postgresql", "PostgreSQL", "4169E1", "PG"), ("firebase", "Firebase", "FFCA28", "FB"), ("faiss", "FAISS", "0467DF", "FAISS"),
+    ("vectordb", "Vector DBs", "8B5CF6", "VDB"),
     ("unity", "Unity", "FFFFFF", "U"), ("godotengine", "Godot", "478CBF", "Gd"),
 ]
 
