@@ -6,10 +6,10 @@
 
 *Building intelligent systems that go from notebook to production.*
 
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=flat-square&logo=Reddit&logoColor=white)](https://reddit.com/user/amirsohail102)
-[![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=flat-square&logo=Twitch&logoColor=white)](https://twitch.tv/amirsohail1010)
-[![X](https://img.shields.io/badge/X-black.svg?style=flat-square&logo=X&logoColor=white)](https://x.com/amirsohail2b)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:amirsohail10@gmail.com)
+[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=flat&logo=Reddit&logoColor=white)](https://reddit.com/user/amirsohail102)
+[![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=flat&logo=Twitch&logoColor=white)](https://twitch.tv/amirsohail1010)
+[![X](https://img.shields.io/badge/X-black.svg?style=flat&logo=X&logoColor=white)](https://x.com/amirsohail2b)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:amirsohail10@gmail.com)
 
 </div>
 
@@ -61,7 +61,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 <div align="center">
 
-<img alt="Skills" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/skills.svg?v=2" />
+<img alt="Skills" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/skills.svg?v=3" />
 
 </div>
 
@@ -91,6 +91,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 ![SHAP](https://img.shields.io/badge/SHAP-FF0051?style=flat)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 
 #### 🤖 GenAI & Agentic AI
 
@@ -127,6 +128,10 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat)
+![Vector DBs](https://img.shields.io/badge/Vector_DBs-8B5CF6?style=flat)
 
 #### 🎮 Game Dev
 
@@ -211,13 +216,13 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 <br/>
 
-<a href="mailto:amirsohail10@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/amir-sohail-ai"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://x.com/amirsohail2b"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+<a href="mailto:amirsohail10@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+<a href="https://linkedin.com/in/amir-sohail-ai"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+<a href="https://x.com/amirsohail2b"><img alt="X" src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" /></a>
 <br/>
-<a href="https://discord.gg/fgDx4yb6E"><img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-<a href="https://instagram.com/_amir_sohail100_"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://quadra-studio.onrender.com"><img alt="Quadra Live" src="https://img.shields.io/badge/Quadra_Live-46E3B7?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="https://discord.gg/fgDx4yb6E"><img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" /></a>
+<a href="https://instagram.com/_amir_sohail100_"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" /></a>
+<a href="https://quadra-studio.onrender.com"><img alt="Quadra Live" src="https://img.shields.io/badge/Quadra_Live-46E3B7?style=flat&logo=googlechrome&logoColor=white" /></a>
 
 <br/><br/>
 
@@ -225,7 +230,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 <br/><br/>
 
-![Profile Views](https://hits.sh/github.com/amirsohail100.svg?style=flat-square&label=Profile%20views&color=0d9488)
+![Profile Views](https://hits.sh/github.com/amirsohail100.svg?style=flat&label=Profile%20views&color=0d9488)
 
 </div>
 
