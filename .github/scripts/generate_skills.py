@@ -2,13 +2,14 @@
 """Generates an animated skills grid (SVG) with brand-coloured logos.
 Logos are fetched from the simple-icons CDN while the GitHub Action runs; if a logo
 can't be fetched, a coloured monogram is drawn instead, so the SVG always builds.
-Standard library only. Set ICON_DIR to read logos from a local folder (for testing)."""
+Logo order: Simple Icons CDN, then assets/icons/<slug>.svg (your own icons), then a monogram.
+Standard library only. Set NO_CDN=1 to test offline."""
 import os, re, urllib.request
 from html import escape
 
 OUT = os.environ.get("OUT_FILE", "dist/skills.svg")
-ICON_DIR = os.environ.get("ICON_DIR")
-CDN = "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/{}.svg"
+LOCAL_DIR = os.environ.get("LOCAL_ICONS", "assets/icons")
+CDNS = ["https://cdn.jsdelivr.net/npm/simple-icons@13/icons/{}.svg", "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/{}.svg"]
 COLS = 10
 
 # (simple-icons slug, label, brand colour, optional fallback text if the logo can't load)
@@ -23,8 +24,8 @@ SKILLS = [
     ("plotly", "Plotly", "7A8CC2", "Pl"),
     ("mlflow", "MLflow", "0194E2", "ML"), ("shap", "SHAP", "FF0051", "SHAP"), ("huggingface", "Hugging Face", "FFD21E", "HF"),
     ("langchain", "LangChain", "1C9C8C", "LC"), ("langgraph", "LangGraph", "1C9C8C", "LG"),
-    ("mistralai", "Mistral AI", "FA520F", "MI"), ("groq", "Groq", "F55036", "Gq"), ("pydantic", "Pydantic", "E92063", "Pyd"),
-    ("jupyter", "Jupyter", "F37626", "Jp"), ("xgboost", "XGBoost", "FF9F1C", "XGB"), ("powerbi", "Power BI", "F2C811", "BI"),
+    ("opencv", "OpenCV", "8C7BFF", "CV"), ("dvc", "DVC", "945DD6", "DVC"), ("pydantic", "Pydantic", "E92063", "Pyd"),
+    ("jupyter", "Jupyter", "F37626", "Jp"), ("ollama", "Ollama", "FFFFFF", "Ol"), ("powerbi", "Power BI", "F2C811", "BI"),
     ("microsoftexcel", "Excel", "217346", "XL"),
     ("docker", "Docker", "2496ED", "Dk"), ("kubernetes", "Kubernetes", "326CE5", "K8s"), ("amazonaws", "AWS", "FF9900", "AWS"),
     ("googlecloud", "Google Cloud", "4285F4", "GCP"),
@@ -43,18 +44,26 @@ def lighten(hexcol):
         r, g, b = (int(c + (255 - c) * 0.55) for c in (r, g, b))
     return f"#{r:02x}{g:02x}{b:02x}"
 
-def load_path(slug):
-    """Return the SVG path 'd' of a simple-icons logo, or None."""
+def load_icon(slug, color):
+    """Return an <svg> string for the logo (coloured), or None."""
+    if not os.environ.get("NO_CDN"):
+        for url in CDNS:
+            try:
+                req = urllib.request.Request(url.format(slug), headers={"User-Agent": "skills-grid"})
+                with urllib.request.urlopen(req, timeout=15) as r:
+                    svg = r.read().decode("utf-8")
+                m = re.search(r'<path[^>]*\sd="([^"]+)"', svg)
+                if m:
+                    return f'<svg viewBox="0 0 24 24"><path d="{m.group(1)}" fill="{color}"/></svg>'
+            except Exception:
+                pass
     try:
-        if ICON_DIR:
-            with open(os.path.join(ICON_DIR, f"{slug}.svg"), encoding="utf-8") as f:
-                svg = f.read()
-        else:
-            req = urllib.request.Request(CDN.format(slug), headers={"User-Agent": "skills-grid"})
-            with urllib.request.urlopen(req, timeout=15) as r:
-                svg = r.read().decode("utf-8")
-        m = re.search(r'<path[^>]*\sd="([^"]+)"', svg)
-        return m.group(1) if m else None
+        with open(os.path.join(LOCAL_DIR, f"{slug}.svg"), encoding="utf-8") as f:
+            svg = f.read()
+        svg = re.sub(r"<title>.*?</title>", "", svg, flags=re.S).replace("currentColor", color)
+        root = re.match(r"<svg[^>]*>", svg.strip()).group(0)
+        clean = re.sub(r'\s(xmlns|width|height)="[^"]*"', "", root)
+        return svg.strip().replace(root, clean, 1)
     except Exception:
         return None
 
@@ -66,10 +75,10 @@ def build():
     for i, (slug, label, col, *rest) in enumerate(SKILLS):
         x, y = 1 + (i % COLS) * cw, 1 + (i // COLS) * ch
         color = lighten(col)
-        d = load_path(slug)
-        if d:
+        ic = load_icon(slug, color)
+        if ic:
             found += 1
-            glyph = f'<g transform="translate({cw/2-17:.1f} 16) scale(1.4167)"><path d="{d}" fill="{color}"/></g>'
+            glyph = ic.replace("<svg", f'<svg x="{cw/2-17:.1f}" y="16" width="34" height="34"', 1)
         else:
             mono_raw = rest[0] if rest else label[:2]
             mono = escape(mono_raw)
