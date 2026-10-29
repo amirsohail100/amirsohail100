@@ -27,12 +27,12 @@
   </a>
   <br/><b>Quadra</b>
 </td>
-<!-- Quadra Pixel: add assets/quadra-pixel.svg, then uncomment this cell
+
 <td align="center" valign="middle" width="33%">
   <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="180" />
   <br/><b>Quadra Pixel</b>
 </td>
--->
+
 <td align="center" valign="middle" width="33%">
   <img src="assets/quadra-engine.svg" alt="Quadra Engine logo" width="180" />
   <br/><b>Quadra Engine</b>
