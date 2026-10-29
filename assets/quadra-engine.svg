@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Outer Intense White 3D Glow Filter -->
+    <filter id="whiteGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur1" />
+      <feGaussianBlur stdDeviation="5" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Metallic Brushed Shading Gradients -->
+    <linearGradient id="facetTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#b0b5bd" />
+      <stop offset="100%" stop-color="#4a515a" />
+    </linearGradient>
+
+    <linearGradient id="facetTopRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e35" />
+      <stop offset="50%" stop-color="#6e7580" />
+      <stop offset="100%" stop-color="#1a1d22" />
+    </linearGradient>
+
+    <linearGradient id="facetBottomRight" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#8e96a3" />
+      <stop offset="100%" stop-color="#252930" />
+    </linearGradient>
+
+    <linearGradient id="facetBottom" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181b20" />
+      <stop offset="100%" stop-color="#3d434d" />
+    </linearGradient>
+
+    <linearGradient id="facetBottomLeft" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f1115" />
+      <stop offset="50%" stop-color="#3a404a" />
+      <stop offset="100%" stop-color="#1a1d23" />
+    </linearGradient>
+
+    <linearGradient id="facetTopLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="50%" stop-color="#717a87" />
+      <stop offset="100%" stop-color="#20242b" />
+    </linearGradient>
+
+    <linearGradient id="outerBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#555b66" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+
+  <!-- LOGO MAIN CONTAINER WITH WHITE 3D GLOW (TRANSPARENT BACKGROUND) -->
+  <g filter="url(#whiteGlow)">
+    <!-- Outer High-Glow Boundary Ring -->
+    <polygon points="250,70 415,165 415,355 250,450 85,355 85,165" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.95" />
+    
+    <!-- Outer Dark Gap Base -->
+    <polygon points="250,78 405,170 405,350 250,442 95,350 95,170" fill="#070a0e" stroke="url(#outerBorder)" stroke-width="2" />
+
+    <!-- CHISELED METALLIC FACETS -->
+    <polygon points="250,90 390,173 325,210 250,170 175,210 110,173" fill="url(#facetTop)" />
+    <polygon points="390,173 390,347 325,310 325,210" fill="url(#facetTopRight)" />
+    <polygon points="390,347 250,430 250,347 325,310" fill="url(#facetBottomRight)" />
+    <polygon points="250,430 110,347 175,310 250,347" fill="url(#facetBottom)" />
+    <polygon points="110,347 110,173 175,210 175,310" fill="url(#facetBottomLeft)" />
+    <polygon points="110,173 250,90 250,170 175,210" fill="url(#facetTopLeft)" />
+
+    <!-- INNER MONOLITH HOLLOW CORE -->
+    <polygon points="250,170 325,210 325,310 250,347 175,310 175,210" fill="#05070a" stroke="#ffffff" stroke-width="1.5" opacity="0.9" />
+             
+    <!-- Inner Bevel Edges Wireframe -->
+    <g stroke="#ffffff" stroke-width="1" opacity="0.4">
+      <line x1="250" y1="90" x2="250" y2="170" />
+      <line x1="390" y1="173" x2="325" y2="210" />
+      <line x1="390" y1="347" x2="325" y2="310" />
+      <line x1="250" y1="430" x2="250" y2="347" />
+      <line x1="110" y1="347" x2="175" y2="310" />
+      <line x1="110" y1="173" x2="175" y2="210" />
+    </g>
+  </g>
+</svg>
