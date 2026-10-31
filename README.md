@@ -18,12 +18,12 @@
 <tr>
 <td align="center" valign="middle" width="33%">
   <a href="https://quadra-studio.onrender.com">
-    <img src="assets/quadra-logo.svg" alt="Quadra logo" width="140" />
+    <img src="assets/quadra-logo.svg" alt="Quadra Studio logo" width="140" />
   </a>
-  <br/><b>Quadra</b>
+  <br/><b>Quadra Studio</b>
 </td>
 
-<td align="center" valign="middle" width="33%">
+<td align="center" valign="middle" width="29%">
   <img src="assets/quadra-ai.svg" alt="Quadra AI logo" width="140" />
   <br/><b>Quadra AI</b>
 </td>
