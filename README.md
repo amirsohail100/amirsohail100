@@ -11,41 +11,44 @@
 [![X](https://img.shields.io/badge/X-black.svg?style=flat&logo=X&logoColor=white)](https://x.com/amirsohail2b)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:amirsohail10@gmail.com)
 
-</div>
-
----
-
-## 🚀 Featured Project
-
 <div align="center">
 
 <table>
+<!-- पहली पंक्ति: इसमें 3 आइटम रहेंगे -->
 <tr>
 <td align="center" valign="middle" width="33%">
   <a href="https://quadra-studio.onrender.com">
-    <img src="assets/quadra-logo.svg" alt="Quadra logo" width="180" />
+    <img src="assets/quadra-logo.svg" alt="Quadra logo" width="140" />
   </a>
   <br/><b>Quadra</b>
 </td>
 
-<td align="center" valign="middle" width="30%">
-  <img src="assets/quadra-ai.svg" alt="Quadra AI logo" width="180" />
-  <br/><b>Quadra Pixel</b>
+<td align="center" valign="middle" width="33%">
+  <img src="assets/quadra-ai.svg" alt="Quadra AI logo" width="140" />
+  <br/><b>Quadra AI</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="180" />
+  <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="140" />
   <br/><b>Quadra Pixel</b>
 </td>
+</tr>
 
+<!-- दूसरी पंक्ति: इसमें बचे हुए एक्स्ट्रा आइटम नीचे आ जाएंगे -->
+<tr>
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-engine.svg" alt="Quadra Engine logo" width="180" />
+  <img src="assets/quadra-engine.svg" alt="Quadra Engine logo" width="140" />
   <br/><b>Quadra Engine</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-office.svg" alt="Quadra Office logo" width="180" />
-  <br/><b>Quadra Engine</b>
+  <img src="assets/quadra-office.svg" alt="Quadra Office logo" width="140" />
+  <br/><b>Quadra Office</b>
+</td>
+
+<!-- अगर ग्रिड को पूरी तरह 3x3 का दिखाना है और खाली जगह छोड़नी है, तो आप इसे खाली छोड़ सकते हैं या हटा सकते हैं -->
+<td align="center" valign="middle" width="33%">
+  <!-- खाली सेल या जरूरत पड़نے पर कुछ और -->
 </td>
 </tr>
 </table>
