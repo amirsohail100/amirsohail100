@@ -23,7 +23,7 @@
   <br/><b>Quadra Studio</b>
 </td>
 
-<td align="center" valign="middle" width="29%">
+<td align="center" valign="middle" width="25%">
   <img src="assets/quadra-ai.svg" alt="Quadra AI logo" width="140" />
   <br/><b>Quadra AI</b>
 </td>
