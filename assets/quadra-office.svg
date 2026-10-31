@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Cyan Neon Glow Filter -->
+    <filter id="cyanGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="3" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Metallic Brushed Facet Gradients -->
+    <linearGradient id="facetTopLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#c0c7d0" />
+      <stop offset="100%" stop-color="#707885" />
+    </linearGradient>
+
+    <linearGradient id="facetTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8ecf1" />
+      <stop offset="50%" stop-color="#9aa3b0" />
+      <stop offset="100%" stop-color="#4e5560" />
+    </linearGradient>
+
+    <linearGradient id="facetRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#404652" />
+      <stop offset="50%" stop-color="#808a98" />
+      <stop offset="100%" stop-color="#2a2e37" />
+    </linearGradient>
+
+    <linearGradient id="facetBottom" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#9aa2b0" />
+      <stop offset="100%" stop-color="#353b45" />
+    </linearGradient>
+
+    <linearGradient id="facetLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d0d7e0" />
+      <stop offset="50%" stop-color="#606875" />
+      <stop offset="100%" stop-color="#1f232b" />
+    </linearGradient>
+
+    <!-- Outer Frame Silver Gradient -->
+    <linearGradient id="silverFrame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="30%" stop-color="#a8b0bc" />
+      <stop offset="70%" stop-color="#48505c" />
+      <stop offset="100%" stop-color="#d5dc68" />
+    </linearGradient>
+
+    <!-- Pen Nib 3D Silver Gradients -->
+    <linearGradient id="nibBodyLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#d0d7e2" />
+      <stop offset="80%" stop-color="#656e7c" />
+      <stop offset="100%" stop-color="#2a303a" />
+    </linearGradient>
+
+    <linearGradient id="nibBodyRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#303642" />
+      <stop offset="50%" stop-color="#8a94a4" />
+      <stop offset="100%" stop-color="#181c22" />
+    </linearGradient>
+
+    <linearGradient id="nibCapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#808a98" />
+      <stop offset="100%" stop-color="#20252d" />
+    </linearGradient>
+  </defs>
+
+  <g>
+    <!-- 1. OUTER BEVELED METALLIC FRAME -->
+    <!-- Outer Rim -->
+    <polygon points="300,30 525,160 525,420 300,550 75,420 75,160" fill="#2d333f" stroke="url(#silverFrame)" stroke-width="6" />
+    
+    <!-- Outer Rim Inner Chisel bevel -->
+    <polygon points="300,42 513,167 513,413 300,538 87,413 87,167" fill="#0f131a" stroke="#707b8c" stroke-width="2" />
+
+    <!-- 2. INTENSE CYAN NEON GLOW GAP -->
+    <polygon points="300,58 497,172 497,408 300,522 103,408 103,172" fill="none" stroke="#00f0ff" stroke-width="7" filter="url(#cyanGlow)" opacity="0.95" />
+
+    <!-- 3. INNER DARK GAP BED -->
+    <polygon points="300,68 487,177 487,403 300,512 113,403 113,177" fill="#070a0f" stroke="#00d0e0" stroke-width="1.5" />
+
+    <!-- 4. CHISELED BRUSHED METALLIC FACETS -->
+    <!-- Top-Left Facet -->
+    <polygon points="300,82 200,140 215,220 300,180" fill="url(#facetTopLeft)" stroke="#10141c" stroke-width="2" />
+    <polygon points="200,140 128,182 128,310 200,265 215,220" fill="url(#facetLeft)" stroke="#10141c" stroke-width="2" />
+    
+    <!-- Top-Right Facet -->
+    <polygon points="300,82 400,140 385,220 300,180" fill="url(#facetTop)" stroke="#10141c" stroke-width="2" />
+    <polygon points="400,140 472,182 472,310 400,265 385,220" fill="url(#facetRight)" stroke="#10141c" stroke-width="2" />
+
+    <!-- Bottom-Right Facet -->
+    <polygon points="472,310 400,355 385,265 472,220" fill="url(#facetRight)" stroke="#10141c" stroke-width="2" />
+    <polygon points="400,355 300,412 300,320 385,265" fill="url(#facetBottom)" stroke="#10141c" stroke-width="2" />
+
+    <!-- Bottom-Left Facet -->
+    <polygon points="128,310 200,355 215,265 128,220" fill="url(#facetLeft)" stroke="#10141c" stroke-width="2" />
+    <polygon points="200,355 300,412 300,320 215,265" fill="url(#facetBottom)" stroke="#10141c" stroke-width="2" />
+
+    <!-- Facet Inner Bevel Separation Lines -->
+    <g stroke="#ffffff" stroke-width="1.5" opacity="0.4">
+      <line x1="300" y1="82" x2="300" y2="180" />
+      <line x1="472" y1="182" x2="385" y2="220" />
+      <line x1="472" y1="400" x2="385" y2="355" />
+      <line x1="300" y1="500" x2="300" y2="412" />
+      <line x1="128" y1="400" x2="215" y2="355" />
+      <line x1="128" y1="182" x2="215" y2="220" />
+    </g>
+
+    <!-- 5. CENTER DARK HOLLOW RECESS -->
+    <polygon points="300,180 385,220 385,355 300,412 215,355 215,220" fill="#0a0f18" stroke="#00f0ff" stroke-width="1.5" opacity="0.95" />
+
+    <!-- 6. 3D METALLIC FOUNTAIN PEN NIB EMBLEM -->
+    <g transform="rotate(-33, 300, 295)">
+      
+      <!-- Cyan Glow Outline around the Nib -->
+      <path d="M 255,140 L 345,140 Q 355,140 355,150 L 350,210 Q 350,260 300,415 Q 250,260 250,210 L 245,150 Q 245,140 255,140 Z" fill="none" stroke="#00f0ff" stroke-width="5" filter="url(#cyanGlow)" opacity="0.9" />
+
+      <!-- Nib Top Ring / Collar -->
+      <rect x="252" y="145" width="96" height="30" rx="8" fill="url(#nibCapGrad)" stroke="#ffffff" stroke-width="1.5" />
+      <rect x="260" y="185" width="80" height="15" rx="4" fill="url(#nibCapGrad)" stroke="#00f0ff" stroke-width="1" />
+
+      <!-- Main Nib Body - Left Half -->
+      <path d="M 258,205 L 258,260 Q 258,310 300,405 L 300,205 Z" fill="url(#nibBodyLeft)" />
+
+      <!-- Main Nib Body - Right Half -->
+      <path d="M 342,205 L 342,260 Q 342,310 300,405 L 300,205 Z" fill="url(#nibBodyRight)" />
+
+      <!-- Nib Outer Metallic Bevel Edge -->
+      <path d="M 258,205 Q 258,310 300,405" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.8" />
+      <path d="M 342,205 Q 342,310 300,405" fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.9" />
+
+      <!-- Center Slit Line & Breathing Hole -->
+      <line x1="300" y1="265" x2="300" y2="405" stroke="#05080e" stroke-width="3.5" />
+      <circle cx="300" cy="265" r="7" fill="#05080e" stroke="#ffffff" stroke-width="1.5" />
+
+      <!-- Document Icon Embossed on Nib -->
+      <g transform="translate(276, 212)">
+        <rect x="0" y="0" width="48" height="36" rx="5" fill="#090e17" stroke="#00f0ff" stroke-width="2" filter="url(#cyanGlow)" />
+        <!-- Folded Page Corner -->
+        <path d="M 36,0 L 48,12 L 36,12 Z" fill="#00f0ff" />
+        <!-- Text Lines inside Document -->
+        <line x1="8" y1="10" x2="28" y2="10" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+        <line x1="8" y1="18" x2="40" y2="18" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+        <line x1="8" y1="26" x2="34" y2="26" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>
