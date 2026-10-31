@@ -28,13 +28,13 @@
   <br/><b>Quadra</b>
 </td>
 
-<td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-ai.svg" alt="Quadra Pixel logo" width="180" />
+<td align="center" valign="middle" width="30%">
+  <img src="assets/quadra-ai.svg" alt="Quadra AI logo" width="180" />
   <br/><b>Quadra Pixel</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-pixe.svg" alt="Quadra Pixel logo" width="180" />
+  <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="180" />
   <br/><b>Quadra Pixel</b>
 </td>
 
@@ -44,7 +44,7 @@
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-office .svg" alt="Quadra Engine logo" width="180" />
+  <img src="assets/quadra-office.svg" alt="Quadra Office logo" width="180" />
   <br/><b>Quadra Engine</b>
 </td>
 </tr>
