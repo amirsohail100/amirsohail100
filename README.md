@@ -87,6 +87,40 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 
 ---
 
+<!-- 🚀 GAME STUDIO COLLABORATION SECTION (MIDDLE) -->
+<div align="center">
+
+## 🎮 Emerging Game Studio Collaboration
+
+<table>
+<tr>
+<td align="center" valign="middle" width="100%">
+  <a href="YOUR_STUDIO_WEBSITE_LINK">
+    <img src="assets/your-studio-logo.svg" alt="Game Studio Logo" width="120" height="120" style="object-fit: contain;" />
+  </a>
+  <br/>
+  <h3>🚀 [यहाँ अपने गेम स्टूडियो का नाम लिखें]</h3>
+  <p><em>An Emerging Game Development & Technology Studio</em></p>
+</td>
+</tr>
+</table>
+
+> As the **Main Core AI Software Engineer**, I drive the technological backbone of the studio, bridging cutting-edge artificial intelligence with high-performance game engineering, backend infrastructure, and cloud security.
+
+<br/>
+
+| Domain / Responsibility | Key Contributions & Technologies |
+| :--- | :--- |
+| **🤖 AI & Software Engineering** | Developing core AI models, integrating intelligent gameplay mechanics, and building scalable software architectures. |
+| **🌐 Website Development** | Designing, developing, and deploying the official studio web platforms with modern, responsive UI/UX. |
+| **⚙️ Game Engine Development** | Architecting and building custom game engine prototypes, mechanics, and interactive tools for upcoming titles. |
+| **🗄️ Database Management** | Designing, optimizing, and maintaining secure database systems for game data, user metrics, and backend services. |
+| **🔐 Credentials & Infrastructure** | Managing secure credentials, API keys, deployment pipelines, and overall cloud/system security. |
+
+</div>
+
+---
+
 ## 💻 Tech Stack
 
 <div align="center">
