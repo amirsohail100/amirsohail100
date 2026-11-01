@@ -14,13 +14,13 @@
 <div align="center">
 
 <table>
-<!-- पहली पंक्ति: इसमें 3 आइटम रहेंगे -->
+
 <tr>
 <td align="center" valign="middle" width="33%">
   <a href="https://quadra-studio.onrender.com">
     <img src="assets/quadra-logo.svg" alt="Quadra logo" width="140" />
   </a>
-  <br/><b>Quadra</b>
+  <br/><b>Quadra Studio</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
@@ -34,7 +34,6 @@
 </td>
 </tr>
 
-<!-- दूसरी पंक्ति: इसमें बचे हुए एक्स्ट्रा आइटम नीचे आ जाएंगे -->
 <tr>
 <td align="center" valign="middle" width="33%">
   <img src="assets/quadra-engine.svg" alt="Quadra Engine logo" width="140" />
@@ -46,9 +45,8 @@
   <br/><b>Quadra Office</b>
 </td>
 
-<!-- अगर ग्रिड को पूरी तरह 3x3 का दिखाना है और खाली जगह छोड़नी है, तो आप इसे खाली छोड़ सकते हैं या हटा सकते हैं -->
 <td align="center" valign="middle" width="33%">
-  <!-- खाली सेल या जरूरत पड़نے पर कुछ और -->
+
 </td>
 </tr>
 </table>
