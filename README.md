@@ -96,7 +96,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 <tr>
 <td align="center" valign="middle" width="100%">
   <a href="YOUR_STUDIO_WEBSITE_LINK">
-    <img src="assets/your-studio-logo.svg" alt="Game Studio Logo" width="120" height="120" style="object-fit: contain;" />
+    <img src="assets/HYG_logo_vector.svg" alt="HYG Logo" width="120" height="120" style="object-fit: contain;" />
   </a>
   <br/>
   <h3>🚀 Hypernerd Games</h3>
