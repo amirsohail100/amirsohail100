@@ -29,7 +29,9 @@
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="140" />
+  <a href="https://quadra-pixel-studio.onrender.com">
+    <img src="assets/quadra-pixel.svg" alt="Quadra Pixel" width="140" />
+  </a>
   <br/><b>Quadra Pixel</b>
 </td>
 </tr>
