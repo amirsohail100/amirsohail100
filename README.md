@@ -99,7 +99,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
     <img src="assets/your-studio-logo.svg" alt="Game Studio Logo" width="120" height="120" style="object-fit: contain;" />
   </a>
   <br/>
-  <h3>🚀 [YOUR_GAME_STUDIO_NAME]</h3>
+  <h3>🚀 Hypernerd Games</h3>
   <p><em>An Independent Game Development Studio & Technology Team</em></p>
 </td>
 </tr>
