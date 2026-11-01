@@ -14,41 +14,40 @@
 <div align="center">
 
 <table>
-<!-- पहली पंक्ति: इसमें 3 आइटम रहेंगे -->
+<!-- पहली पंक्ति -->
 <tr>
 <td align="center" valign="middle" width="33%">
   <a href="https://quadra-studio.onrender.com">
-    <img src="assets/quadra-logo.svg" alt="Quadra Studio logo" width="140" />
+    <img src="assets/quadra-logo.svg" alt="Quadra logo" width="100" height="100" style="object-fit: contain;" />
   </a>
-  <br/><b>Quadra Studio</b>
+  <br/><b>Quadra</b>
 </td>
 
-<td align="center" valign="middle" width="15%">
-  <img src="assets/quadra-ai.svg" alt="Quadra AI logo" width="140" />
+<td align="center" valign="middle" width="33%">
+  <img src="assets/quadra-ai.svg" alt="Quadra AI logo" width="100" height="100" style="object-fit: contain;" />
   <br/><b>Quadra AI</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="140" />
+  <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="100" height="100" style="object-fit: contain;" />
   <br/><b>Quadra Pixel</b>
 </td>
 </tr>
 
-<!-- दूसरी पंक्ति: इसमें बचे हुए एक्स्ट्रा आइटम नीचे आ जाएंगे -->
+<!-- दूसरी पंक्ति -->
 <tr>
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-engine.svg" alt="Quadra Engine logo" width="140" />
+  <img src="assets/quadra-engine.svg" alt="Quadra Engine logo" width="100" height="100" style="object-fit: contain;" />
   <br/><b>Quadra Engine</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-office.svg" alt="Quadra Office logo" width="140" />
+  <img src="assets/quadra-office.svg" alt="Quadra Office logo" width="100" height="100" style="object-fit: contain;" />
   <br/><b>Quadra Office</b>
 </td>
 
-<!-- अगर ग्रिड को पूरी तरह 3x3 का दिखाना है और खाली जगह छोड़नी है, तो आप इसे खाली छोड़ सकते हैं या हटा सकते हैं -->
 <td align="center" valign="middle" width="33%">
-  <!-- खाली सेल या जरूरत पड़نے पर कुछ और -->
+  <!-- खाली सेल -->
 </td>
 </tr>
 </table>
