@@ -14,7 +14,7 @@
 <div align="center">
 
 <table>
-<!-- पहली पंक्ति -->
+
 <tr>
 <td align="center" valign="middle" width="33%">
   <a href="https://quadra-studio.onrender.com">
@@ -29,12 +29,13 @@
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="100" height="100" style="object-fit: contain;" />
+  <a href="https://quadra-pixel-studio.onrender.com">
+    <img src="assets/quadra-pixel.svg" alt="Quadra Pixel logo" width="100" height="100" style="object-fit: contain;" />
+  </a>
   <br/><b>Quadra Pixel</b>
 </td>
 </tr>
 
-<!-- दूसरी पंक्ति -->
 <tr>
 <td align="center" valign="middle" width="33%">
   <img src="assets/quadra-engine.svg" alt="Quadra Engine logo" width="100" height="100" style="object-fit: contain;" />
@@ -47,7 +48,7 @@
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <!-- खाली सेल -->
+
 </td>
 </tr>
 </table>
