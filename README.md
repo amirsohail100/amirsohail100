@@ -57,18 +57,18 @@
 
 <tr>
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-engine.svg" alt="Quadra OS logo" width="140" />
+  <img src="" alt="Quadra OS logo" width="140" />
   <br/><b>Quadra OS</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-office.svg" alt="Quadra Hub logo" width="140" />
+  <img src="" alt="Quadra Hub logo" width="140" />
   <br/><b>Quadra Hub</b>
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <a href="https://quadra-pixel-studio.onrender.com">
-    <img src="assets/quadra-flow.svg" alt="coming soon" width="140" />
+  <a href="">
+    <img src="" alt="coming soon" width="140" />
   </a>
   <br/><b>Coming Soon</b>
 </td>
