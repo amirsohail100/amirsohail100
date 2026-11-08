@@ -55,6 +55,25 @@
 </td>
 </tr>
 
+<tr>
+<td align="center" valign="middle" width="33%">
+  <img src="assets/quadra-engine.svg" alt="Quadra OS logo" width="140" />
+  <br/><b>Quadra Engine</b>
+</td>
+
+<td align="center" valign="middle" width="33%">
+  <img src="assets/quadra-office.svg" alt="Quadra Hub logo" width="140" />
+  <br/><b>Quadra Office</b>
+</td>
+
+<td align="center" valign="middle" width="33%">
+  <a href="https://quadra-pixel-studio.onrender.com">
+    <img src="assets/quadra-flow.svg" alt="Quadra Flow" width="140" />
+  </a>
+  <br/><b>Quadra Pixel</b>
+</td>
+</tr>
+
 <td align="center" valign="middle" width="33%">
 
 </td>
