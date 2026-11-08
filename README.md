@@ -48,6 +48,11 @@
 </td>
 
 <td align="center" valign="middle" width="33%">
+  <img src="assets/quadra-flow.svg" alt="Quadra Flow logo" width="140" />
+  <br/><b>Quadra Flow</b>
+</td>
+
+<td align="center" valign="middle" width="33%">
 
 </td>
 </tr>
