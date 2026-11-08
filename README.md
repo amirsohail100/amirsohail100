@@ -55,10 +55,10 @@
 </td>
 </tr>
 
+<td align="center" valign="middle" width="33%">
 
 </td>
 </tr>
-<td align="center" valign="middle" width="33%">
 </table>
 
 ### Quadra
