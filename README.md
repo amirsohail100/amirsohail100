@@ -52,13 +52,13 @@
     <img src="assets/quadra-flow.svg" alt="Quadra Flow" width="140" />
   </a>
   <br/><b>Quadra Pixel</b>
-<!-- </td> -->
-<!-- </tr> -->
+</td>
+</tr>
 
-<td align="center" valign="middle" width="33%">
 
 </td>
 </tr>
+<td align="center" valign="middle" width="33%">
 </table>
 
 ### Quadra
