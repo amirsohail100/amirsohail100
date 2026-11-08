@@ -48,9 +48,12 @@
 </td>
 
 <td align="center" valign="middle" width="33%">
-  <img src="assets/quadra-office.svg" alt="Quadra Flow logo" width="140" />
-  <br/><b>Quadra Flow</b>
-</td> 
+  <a href="https://quadra-pixel-studio.onrender.com">
+    <img src="assets/quadra-flow.svg" alt="Quadra Flow" width="140" />
+  </a>
+  <br/><b>Quadra Pixel</b>
+</td>
+</tr>
 
 <td align="center" valign="middle" width="33%">
 
