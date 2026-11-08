@@ -53,7 +53,7 @@
   </a>
   <br/><b>Quadra Pixel</b>
 <!-- </td> -->
-</tr>
+<!-- </tr> -->
 
 <td align="center" valign="middle" width="33%">
 
