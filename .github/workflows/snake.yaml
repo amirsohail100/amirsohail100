@@ -36,6 +36,9 @@ jobs:
       - name: Generate animated skills grid
         run: python3 .github/scripts/generate_skills.py
 
+      - name: Generate future tech stack grid
+        run: python3 .github/scripts/generate_future.py
+
       - name: Generate extra cards (exploring + coding rhythm)
         run: python3 .github/scripts/generate_extras.py
         env:
