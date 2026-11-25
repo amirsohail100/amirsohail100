@@ -18,7 +18,6 @@ FUTURE = [
     ("springboot", "Spring Boot", "6DB33F", "SB"),
     ("apachekafka", "Kafka", "231F20", "Kafka"),
     ("rabbitmq", "RabbitMQ", "FF6600", "MQ"),
-    ("systemdesign", "System Design", "8B5CF6", "SD"),
     ("tailwindcss", "Tailwind CSS", "06B6D4", "TW"),
     ("linux", "Linux", "FCC624", "Lnx"),
     ("django", "Django", "44B78B", "Dj"),
@@ -30,6 +29,11 @@ FUTURE = [
     ("spring", "Config Server", "6DB33F", "CS"),
     ("nginx", "Nginx", "009639", "Nx"),
     ("jenkins", "Jenkins", "D24939", "Jnk"),
+    ("micrometer", "Micrometer", "1C6EA4", "Mic"),
+    ("grafana", "Grafana", "F46800", "Gf"),
+    ("logstash", "Logstash", "005571", "LS"),
+    ("kibana", "Kibana", "005571", "Kb"),
+    ("prometheus", "Prometheus", "E6522C", "Pr"),
 ]
 
 if __name__ == "__main__":
