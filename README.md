@@ -229,6 +229,17 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godot-engine&logoColor=white)
 
+<details>
+<summary><b>🚀 Future Tech Stack (what I'm learning next)</b></summary>
+
+<div align="center">
+
+<img alt="Future Tech Stack" width="800" src="https://raw.githubusercontent.com/amirsohail100/amirsohail100/output/future-skills.svg" />
+
+</div>
+
+</details>
+
 ---
 
 ## 📊 GitHub Stats
