@@ -115,7 +115,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 ---
 
 <!-- 🚀 GAME DEVELOPMENT STUDIO COLLABORATION -->
-<div align="center">
+<!-- <div align="center">
 
 ## 🎮 Game Development Studio Collaboration
 
@@ -130,7 +130,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
   <p><em>An Independent Game Development Studio & Technology Team</em></p>
 </td>
 </tr>
-</table>
+</table> -->
 
 > As the **Lead Core AI Software Engineer**, I architect the core technological infrastructure for the studio—building custom game engine components, driving AI-driven gameplay systems, managing secure database architectures, and safeguarding studio credentials and web platforms.
 
