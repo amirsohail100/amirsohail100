@@ -132,7 +132,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 </tr>
 </table> -->
 
-> As the **Lead Core AI Software Engineer**, I architect the core technological infrastructure for the studio—building custom game engine components, driving AI-driven gameplay systems, managing secure database architectures, and safeguarding studio credentials and web platforms.
+<!-- > As the **Lead Core AI Software Engineer**, I architect the core technological infrastructure for the studio—building custom game engine components, driving AI-driven gameplay systems, managing secure database architectures, and safeguarding studio credentials and web platforms.
 
 <br/>
 
@@ -144,9 +144,7 @@ I've been hosting Quadra for the past few months. It estimates an applicant's de
 | **🗄️ Database Architecture** | Designing, optimizing, and securing scalable databases for game state management, analytics, and user metrics. |
 | **🔐 Credentials & Security** | Overseeing cloud infrastructure, access control, credential management, and secure deployment pipelines. |
 
-</div>
-
----
+</div> -->
 
 ## 💻 Tech Stack
 
