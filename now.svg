@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 158" width="800" height="158" role="img" aria-label="Currently exploring">
+<style>
+  .bg{fill:#0d1117;stroke:#30363d}
+  .t{fill:#e6edf3;font:800 18px 'Segoe UI',Arial,sans-serif}
+  .s{fill:#8b949e;font:600 12px 'Segoe UI',Arial,sans-serif}
+  .chip{fill:#11161d;stroke:#21262d}
+  .ct{fill:#c9d1d9;font:600 13px 'Segoe UI',Arial,sans-serif}
+  .dot{fill:#22d3ee;animation:pulse 1.8s ease-in-out infinite}
+  .rise{opacity:0;animation:rise .6s ease-out forwards}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+  @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+<rect class="bg" x=".5" y=".5" width="799" height="157" rx="14"/>
+<text class="t" x="24" y="34">Currently Exploring</text>
+<text class="s" x="24" y="52">What I'm learning and building right now</text>
+<g class="rise" style="animation-delay:0.00s"><rect x="24" y="70" width="196" height="30" rx="15" class="chip"/><circle cx="40" cy="85" r="4" class="dot" style="animation-delay:0.0s"/><text x="52" y="90" class="ct">Agentic AI &amp; LangGraph</text></g><g class="rise" style="animation-delay:0.12s"><rect x="230.2" y="70" width="154" height="30" rx="15" class="chip"/><circle cx="246.2" cy="85" r="4" class="dot" style="animation-delay:0.4s"/><text x="258.2" y="90" class="ct">Fine-tuning LLMs</text></g><g class="rise" style="animation-delay:0.24s"><rect x="393.79999999999995" y="70" width="175" height="30" rx="15" class="chip"/><circle cx="409.79999999999995" cy="85" r="4" class="dot" style="animation-delay:0.8s"/><text x="421.79999999999995" y="90" class="ct">Advanced Vector DBs</text></g><g class="rise" style="animation-delay:0.36s"><rect x="578.6999999999999" y="70" width="154" height="30" rx="15" class="chip"/><circle cx="594.6999999999999" cy="85" r="4" class="dot" style="animation-delay:1.2s"/><text x="606.6999999999999" y="90" class="ct">AWS &amp; Kubernetes</text></g><g class="rise" style="animation-delay:0.48s"><rect x="24" y="110" width="146" height="30" rx="15" class="chip"/><circle cx="40" cy="125" r="4" class="dot" style="animation-delay:1.6s"/><text x="52" y="130" class="ct">CI/CD Pipelines</text></g>
+</svg>
